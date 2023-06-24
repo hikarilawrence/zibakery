@@ -488,6 +488,12 @@ footer {
     header {
         width: 100%;
     }
+     .navbar {
+        height: 40px;
+    }
+    .logo {
+        width: 150px;
+    }
     .dropdown {
         width: 130px;
     }
