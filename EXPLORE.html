@@ -176,5 +176,20 @@
           </div>
           
     </div>
+
+    <script>
+            const togglebutton = document.querySelector('.toggle_btn')
+            const togglebuttonicon = document.querySelector('.toggle_btn i')
+            const dropdownmenu = document.querySelector('.dropdown')
+
+            togglebutton.onclick = function(){
+                dropdownmenu.classList.toggle('open')
+                const isOpen = dropdownmenu.classList.contains('open')
+
+                togglebuttonicon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+            }
+        </script>
 </body>
 </html>
