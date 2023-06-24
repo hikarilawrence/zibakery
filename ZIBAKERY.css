@@ -441,7 +441,10 @@ footer {
         width: 100%;
     }
     .dropdown {
-        width: 200px;
+        width: 130px;
+    }
+    .dropdown.open {
+        height: 230px;
     }
 
     .intro {
@@ -546,5 +549,10 @@ footer {
     
     .contacts h3 {
         font-size: 20px;
+    }
+    a {
+        font-size: 13px;
+        color: white;
+        text-align: center;
     }
 }
