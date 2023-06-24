@@ -434,6 +434,54 @@ footer {
     .dropdown {
         display: block;
     }
+    .aboutus {
+        font-size: 32px;
+    }
+    .history {
+        padding: 18px 22px;
+        font-size: 18px;
+    }
+    
+    .mission h3 {
+        font-size: 25px;
+    }
+    
+    .mission p {
+        font-size: 17px;
+        padding: 5px 22px;
+    }
+    
+    .vision h3 {
+        font-size: 25px;
+    }
+    
+    .vision p {
+        font-size: 15px;
+        padding: 5px 20px;
+    }
+
+    .oflist {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+      
+    .pics {
+        width: 150px;
+    }
+    
+    .oflist {
+        grid-gap: 30px;
+    }
+    
+    .oflist div {
+        font-size: 16px;
+    }
+    .oflist div h2 {
+        font-size: 18px;
+    }
+    
+    .oflist div a {
+        font-size: 15px;
+    }
 }
 
 @media(max-width: 375px){
@@ -554,5 +602,8 @@ footer {
         font-size: 13px;
         color: white;
         text-align: center;
+    }
+    .btn a {
+        color: black;
     }
 }
